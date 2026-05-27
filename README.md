@@ -134,3 +134,6 @@ The simulator interprets key instructions line-by-line:
 * **Complex Database Dependencies**: If a codebase requires external database connections (e.g. PostgreSQL, Redis) at boot-time without mock states, the real container run validation may fail unless the agent configures container mock states or incorporates service linking in `docker-compose.yml`.
 * **Private Git Repositories**: Currently, the git cloner is optimized for public GitHub repositories. Support for private Git links would require providing personal SSH keys or OAuth access tokens in the configuration popup.
 * **Large Build Contexts**: When cloning gigantic codebases, scanning might experience higher latency. DockerForge incorporates file filters (`node_modules`, `.git`, `.venv`) to optimize analysis sizes.
+
+
+<img width="1901" height="1048" alt="image" src="https://github.com/user-attachments/assets/4da97857-cb40-4ed5-b42f-56078f591524" />
